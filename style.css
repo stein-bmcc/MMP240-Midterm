@@ -1,0 +1,252 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: arial;
+	line-height: 1.5em;
+}
+#container{
+	max-width:960px;
+	margin:0 auto;
+}
+#badges{
+    padding-left: 14em
+}
+#register{
+    width: 500px;
+    margin-left: 2%;
+    padding:40px;
+    border: 5px solid red;}
+#vote{
+    margin-left: 2%;
+    width: 500px;
+    padding:40px;
+    border: 5px solid red;
+}
+#candi{
+    margin-left: 2%;
+    width: 500px;
+    padding:40px;
+    border: 5px solid red;
+}
+#event{
+    margin-left: 2%;
+    width: 500px;
+    padding:40px;
+    border: 5px solid red; }
+#resource{
+    margin-left: 2%;
+    width: 500px;
+    padding:40px;
+    border: 5px solid red; }
+
+#main-menu{
+	clear:both;
+	display:none;
+	border-top:solid 1px #999;
+}
+#registerbody{
+    margin-left: 3%;
+    width: 600px;
+    font-size: 120%;
+    line-height:2
+
+}
+#electionbody{
+    margin-left: 3%;
+    width: 600px;
+    font-size: 120%;
+    line-height:2
+}
+#candibody{margin-left: 3%;
+    width: 600px;
+    font-size: 120%;
+    line-height:2}
+#resourcebody{
+    margin-left: 3%;
+    width: 600px;
+    font-size: 120%;
+    line-height:2}
+
+nav li{
+	border-bottom:solid 1px #999;
+	padding:0.5em;
+	text-align: center;
+	list-style-type: none;
+}
+a:hover{color:crimson;}
+a:link{text-decoration: none;
+            color: black;}
+
+nav li li {
+	border:none;
+}
+
+nav li ul{  /* hides drop down UL */
+	background-color: #fff;
+	display:none;
+}
+
+nav li li{
+display:block;
+}
+center{font-size:150%;}
+
+img{ padding-top: 1em;
+    max-width: 100%;
+}
+iframe{
+    max-width: 100%;
+}
+
+#date-loc{
+	float:right;
+	margin-right:0.5em;
+}
+nav button{
+        width:30%;
+        font-size: 2em;
+        background-color:crimson;
+		float:left;
+	    margin-left:0.6em;
+}
+#content, #sidebar, footer{
+	padding:0.5em;
+}
+h1, header{
+	margin-bottom:1em;
+}
+ aside{
+ 	border:solid 1px #999;
+ 	padding:0.5em;
+ }
+#lineup li{
+	display: inline;
+	list-style-type: circle;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+#slideshow img, #direction img{
+	width:100%;
+}
+footer{
+	clear:both;
+}
+h1 {text-align: center;
+    font-family: sans-serif;
+    font-size: 200%;
+    margin-top: 1em;
+    margin-bottom: 1em;background-color: azure;
+}
+.headerText{text-align: center;
+    font-family: sans-serif;
+    font-size:100%;
+    margin-bottom: 1em;
+    margin-left:1em;
+    }
+
+article {font-family: sans-serif;
+    margin-left: 1em;
+    margin-right: 1em;}
+
+.federal{font-size: 130%;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 2%;
+    background-color: blue;
+}
+.body{line-height:normal;}
+
+.federalBody{line-height:normal;}
+ul{text-align: normal;
+    line-height: normal;
+    margin-top: 2%;}
+
+.congress{text-align: center;
+    font-size: 130%;
+    text-decoration: underline;
+    margin-bottom: 2%;
+    background-color:crimson;
+    }
+
+.senate{text-align: center;
+    font-size: 130%;
+    text-decoration: underline;
+    margin-bottom: 2%;
+    background-color: blue;}
+.rep{text-align: center;
+    font-size: 130%;
+    text-decoration: underline;
+    margin-bottom: 2%;
+     background-color:crimson;}
+.election{text-align: center;
+    font-size: 130%;
+    text-decoration: underline;
+    margin-bottom: 2%;
+    background-color: blue;}
+.spNote{text-align: center;
+    font-size: 130%;
+    text-decoration: underline;
+    margin-bottom: 2%; }
+.nySA{text-align: center;
+    font-size: 130%;
+    text-decoration: underline;
+    margin-bottom: 2%;
+     background-color:crimson;
+    }
+.NYS{background-color: yellow;}
+h3{text-align: center;
+    font-size: 115%;
+    margin-bottom: 2%;
+    margin-top: 1%}
+
+.BMCC{text-align: center;
+    font-size: 130%;
+    text-decoration: underline;
+    margin-bottom: 2%;
+    background-color: blue;}
+p {text-align: c}
+
+@media (min-width: 768px) {
+
+h1{
+	float:left;
+    line-height:1;
+	width:100%;
+}
+nav button{
+	display:none;
+}
+#main-menu{
+	display:block;
+	clear:both;
+}
+nav li{
+    font-family: serif;
+    font-size: 30px;
+   display:inline-block;
+	margin:1em;
+    margin-left:7%;
+	border:none;
+
+}
+nav li ul{
+	position:absolute;
+	border:solid 1px #999;
+
+}
+a:hover{color:crimson;}
+a:link{text-decoration: none;
+            color: black;}
+
+#content{
+	float:left;
+	width:70%;
+}
+#sidebar{
+	float:right;
+	width:25%;
+}
+
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <title> GO Vote NYC 2017 </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+
+    <script>
+  function toggle_div(id){
+    if (document.getElementById(id).style.display=="block"){
+      document.getElementById(id).style.display="none";
+    }else{
+      document.getElementById(id).style.display="block";
+    }
+  }
+  window.addEventListener('mouseup', function(event){
+    for(var i=0; i < boxArray.length; i++){
+      var box = document.getElementById(boxArray[i]);
+      if(event.target != box && event.target.parentNode != box){
+        box.style.display = 'none';
+      }
+    }
+  });
+</script>
+
+  </head>
+  <body>
+    <div id="container">
+      <header>
+         <a href="index%20copy.html">
+        <img src="voter.png" alt="Logo" width="600" height="500">
+        </a> 
+            <div id="date-loc">
+          <h2>
+          <a href="https://www.instagram.com/">
+          <img border="0" alt="Badge" src="http://eugenielee.artistwebsite.me/wp-content/uploads/sites/27/2013/09/instagram-logo.jpg" width="50" height="50">
+        </a>
+        <a href="https://www.facebook.com/">
+          <img border="0" alt="Badge" src="http://vignette2.wikia.nocookie.net/warframe/images/f/f9/Facebook-logo-icon-vectorcopy-big_copy.png/revision/latest?cb=20131229102704" width="50" height="50"></a>
+          <a href="https://www.youtube.com/">
+          <img border="0" alt="Badge" src="http://www.ecn.na/documents/27857/172788/Icon_Youtube.png/df422283-21ce-4d96-a592-682e6521d5e5?t=1456914362779" width="50" height="50"></a>
+
+        </h2>
+        </div>
+      </header>
+      <nav>
+        <button onclick="toggle_div('main-menu')">Menu</button>
+        <ul id="main-menu">
+            <li><a href="register.html">Register</a></li>
+          <li><a href="election.html">Election Day</a></li>
+          <li><a href="candidates.html">Candidates</a></li>
+          <li><a href="events.html">Events</a></li>
+         <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </nav>
+      <div id="content"> 
+        <p><br>
+          <br>
+        <a href="register.html">
+            <div id="register"><center>How to Register</center></div></a>
+        <a href="election.html">
+            <div id="vote"><center>Voting Information</center></div></a>
+        <a href="candidates.html">
+            <div id="candi"><center>Information about Candidates</center></div></a>
+        <a href="events.html">
+            <div id="event"><center>Upcoming Events</center></div></a>
+        <a href="resources.html">
+            <div id="resource"><center>Election Resources</center></div></a>
+         <center>Dates<br>
+        General Election: November 8, 2016<br>
+
+        Registration Deadline: Friday, October 14, 2016<br>
+
+        Third Presidential Debate: Wednesday, October 19, 2016
+        It will be on all of the major networks (ABC, NBC, Fox, CBS, MSNBC, Fox News, Fox Business, CNN, Univision, Telemundo, and C-SPAN).<br> Online livestreamed on Twitter,Facebookand YouTube and on radio WNYC 93.9 FM or
+             <a href="http://www.wnyc.org/">WNYC.org</a>.<br></center>
+        <div id="badges">
+          <a href="https://www.facebook.com/">
+          <img border="0" alt="Badge" src="http://vignette2.wikia.nocookie.net/warframe/images/f/f9/Facebook-logo-icon-vectorcopy-big_copy.png/revision/latest?cb=20131229102704" width="50" height="50"></a>  
+        <a href="http://debates.twitter.com">
+          <img border="0" alt="Badge" src="https://lukascondie.files.wordpress.com/2014/10/twitter-icon.png?w=512" width="50" height="50"></a>
+        <a href="https://www.youtube.com/">
+          <img border="0" alt="Badge" src="http://www.ecn.na/documents/27857/172788/Icon_Youtube.png/df422283-21ce-4d96-a592-682e6521d5e5?t=1456914362779" width="50" height="50"></a>
+          </div>
+          </p>
+    </div> 
+      </body>
+      </html>
+

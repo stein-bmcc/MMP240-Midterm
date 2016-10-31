@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <title> GO Vote NYC 2017 </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+
+    <script>
+  function toggle_div(id){
+    if (document.getElementById(id).style.display=="block"){
+      document.getElementById(id).style.display="none";
+    }else{
+      document.getElementById(id).style.display="block";
+    }
+  }
+  window.addEventListener('mouseup', function(event){
+    for(var i=0; i < boxArray.length; i++){
+      var box = document.getElementById(boxArray[i]);
+      if(event.target != box && event.target.parentNode != box){
+        box.style.display = 'none';
+      }
+    }
+  });
+      </script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+      <a href="index%20copy.html">
+        <img src="voter.png" alt="Logo" width="600" height="500">
+        </a>
+            <div id="date-loc">
+          <h2>
+          <a href="https://www.instagram.com/">
+          <img border="0" alt="Badge" src="http://eugenielee.artistwebsite.me/wp-content/uploads/sites/27/2013/09/instagram-logo.jpg" width="50" height="50">
+        </a>
+        <a href="https://www.facebook.com/">
+          <img border="0" alt="Badge" src="http://vignette2.wikia.nocookie.net/warframe/images/f/f9/Facebook-logo-icon-vectorcopy-big_copy.png/revision/latest?cb=20131229102704" width="50" height="50"></a>
+          <a href="https://www.youtube.com/">
+          <img border="0" alt="Badge" src="http://www.ecn.na/documents/27857/172788/Icon_Youtube.png/df422283-21ce-4d96-a592-682e6521d5e5?t=1456914362779" width="50" height="50"></a>
+
+        </h2>
+        </div>
+      </header>
+      <nav>
+        <button onclick="toggle_div('main-menu')">Menu</button>
+        <ul id="main-menu">
+            <li><a href="register.html">Register</a></li>
+          <li><a href="election.html">Election Day</a></li>
+          <li><a href="candidates.html">Candidates</a></li>
+          <li><a href="events.html">Events</a></li>
+         <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </nav>
+        <div id="candibody">
+        <p><br><br>
+            <br><center>Events Calendar</center>
+
+<div class="eventCalendar">
+  <iframe src="https://calendar.google.com/calendar/embed?src=8d3fc8l9g04n7r9im45fsn08ak%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+<!-- end eventCalendar -->
+
+
+Upcoming Events
+<div class="eventCalendar agenda">
+  <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;hl=en&amp;bgcolor=%23FFFFFF&amp;src=8d3fc8l9g04n7r9im45fsn08ak%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+
+<center>Featured Event</center>
+
+Third Presidential Debate<br>
+Date: Wednesday, October 19<br>
+Time: 9:00pm Eastern Standard Time<br>
+
+Watch the event live on the major TV networks including C-SPAN, ABC, CBS, FOX and NBC, CNN, Fox News and MSNBC, PBS NewsHour, Telemundo, and Univision, also there will be livestreams on YouTube, Twitter and Facebook Live.<br>
+
+
+
+<center>Get Involved</center>
+
+Host a Rock The Vote event: https://www.rockthevote.com/get-involved/host-an-event/
+Guide to Hosting Your Own Debate: http://www.debates.org/index.php?page=guide-to-hosting-your-own-debate<br>
+
+<center>More Info</center>
+
+Commission on Presidential Debates: http://www.debates.org/
+Debate Transcripts: http://www.debates.org/index.php?page=debate-transcripts<br>
+C-Span Video of Presidential Debates: https://www.c-span.org/presidentialDebate/<br>
+C-Span Coverage of the 2016 campaigns: https://www.c-span.org/series/?campaign2016<br>
+Get Election Reminders: https://www.rockthevote.com/get-informed/elections/reminders/<br>
+Twitter #Election2016: https://twitter.com/i/streams/stream/692841134482063360
+
+<br><br>
+Videos of Previous Debates<br>
+<br>
+First Presidential Debate<br>
+  NBC: https://youtu.be/855Am6ovK7s<br>
+  CBS: https://www.youtube.com/playlist?list=PLEb3ThbkPrFZV-HePjrQVMHyHOeWaneX6<br>
+  ABC: https://youtu.be/GQFGTDFvMSc<br>
+  PBS: https://youtu.be/7BGYYaaLrTc<br>
+  FOX: https://youtu.be/ubp0CEbqW-U?t=54m35s<br>
+
+<br>Second Presidential Debate<br>
+  NBC: https://youtu.be/FRlI2SQ0Ueg<br>
+  CBS: https://youtu.be/ooShpws3Dik<br>
+  ABC: https://youtu.be/h-gkBUbU_F4<br>
+  PBS: https://youtu.be/hqlB80QLr9M<br>
+
+  FOX: (general debate coverage) https://www.youtube.com/playlist?list=PLlTLHnxSVuIxC-yk6lYqsu4nW08qAE-jm<br>
+
+  <br>Vice Presidential Debate<br>
+  NBC: https://youtu.be/mVXqNcW_-HA<br>
+  CBS: https://www.youtube.com/playlist?list=PLEb3ThbkPrFYYnjSnwFgA2TG3P7gWIh1-<br>
+  ABC: https://youtu.be/9GfywoUoaok<br>
+  PBS: https://youtu.be/is8cx0q39bI<br>
+            </p>
+        </div>
+      </body>
+      </html>

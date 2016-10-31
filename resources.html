@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <title> GO Vote NYC 2017 </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+
+    <script>
+  function toggle_div(id){
+    if (document.getElementById(id).style.display=="block"){
+      document.getElementById(id).style.display="none";
+    }else{
+      document.getElementById(id).style.display="block";
+    }
+  }
+  window.addEventListener('mouseup', function(event){
+    for(var i=0; i < boxArray.length; i++){
+      var box = document.getElementById(boxArray[i]);
+      if(event.target != box && event.target.parentNode != box){
+        box.style.display = 'none';
+      }
+    }
+  });
+      </script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+       <a href="index%20copy.html">
+        <img src="voter.png" alt="Logo" width="600" height="500">
+        </a>
+            <div id="date-loc">
+          <h2>
+          <a href="https://www.instagram.com/">
+          <img border="0" alt="Badge" src="http://eugenielee.artistwebsite.me/wp-content/uploads/sites/27/2013/09/instagram-logo.jpg" width="50" height="50">
+        </a>
+        <a href="https://www.facebook.com/">
+          <img border="0" alt="Badge" src="http://vignette2.wikia.nocookie.net/warframe/images/f/f9/Facebook-logo-icon-vectorcopy-big_copy.png/revision/latest?cb=20131229102704" width="50" height="50"></a>
+          <a href="https://www.youtube.com/">
+          <img border="0" alt="Badge" src="http://www.ecn.na/documents/27857/172788/Icon_Youtube.png/df422283-21ce-4d96-a592-682e6521d5e5?t=1456914362779" width="50" height="50"></a>
+
+        </h2>
+        </div>
+      </header>
+      <nav>
+        <button onclick="toggle_div('main-menu')">Menu</button>
+        <ul id="main-menu">
+            <li><a href="register.html">Register</a></li>
+          <li><a href="election.html">Election Day</a></li>
+          <li><a href="candidates.html">Candidates</a></li>
+          <li><a href="events.html">Events</a></li>
+         <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </nav>
+        <div id="resourcebody"><br><br>
+        <p><center>Resources</center>
+
+There are many places to find information and ways to get involved in the election.
+<br>
+<center>Get Involved</center>
+
+            <ul>
+<li>League of Women Voters: http://lwv.org/ The League is a non-profit organization that engages in a number of activities around voting, from education to registering people to vote and more.</li><br>
+<li> Rock the Vote: http://rockthevote.com/. Started in 1990 Rock The Vote is a non-profit dedicated to getting young people to vote and participate in the electoral process.</li><br>
+<li> Volunteer Match: https://www.volunteermatch.org This is a site dedicated to helping people find opportunities to volunteer.</li><br>
+<li> Opportunities to volunteer related to politics in NYC: https://www.volunteermatch.org/search/?l=New%20York,%20NY,%20USA&categories=6 </li><br>
+<li> Become a Poll Worker: http://www.vote.nyc.ny.us/html/workers/positions.shtml</li><br>
+<ul>
+
+    <center>Voter Information and Education</center>
+
+Official and well-known, non-partisan sources to go to get information on the election.
+<ul>
+    <li> New York State Board of Elections: http://www.elections.ny.gov/ This is an official NYS agency that is tasked with enacting and enforcing all laws related to elections in New York State.</li><br>
+<li> New York City Board of Elections: vote.nyc.ny.us The NYC BOE is the City's version of the state board and is responsible for running elections in the City.</li><br>
+    <li> Poll Site Locator: https://nyc.pollsitelocator.com/search created by the NYC BOE this gives information on where to vote and what districs you're in.</li><br>
+<li> New York City Campaign Finance Board: http://www.nyccfb.info/. The CFB is an NYC agency that is non-partisan and helps make campaign finance more fair by matching  small donor contributions and providing information about campaign finance.</li><br>
+<li> Federal Voting Assistance Project: https://www.fvap.gov/. FVAP is a federal program charged with helping military and US citizens get the tools and information to vote.</li><br>
+<li> Vote 411: http://www.vote411.org/ is created by the League of Women Voters to give out non-partisan information on how to vote.</li><br>
+</ul>
+
+    <center>Media</center>
+<ul>
+<li>New York Times (Newspaper): http://www.nytimes.com/interactive/2016/us/elections/election-2016.html and http://www.nytimes.com/news-event/election-2016</li><br>
+<li> WNYC (Local Public Radio): http://www.wnyc.org/series/everything-you-need-know-about-2016-elections</li><br>
+<li> ABC (TV): http://abcnews.go.com/Politics/Election</li><br>
+<li> CBS (TV): http://www.cbsnews.com/election-2016/</li><br>
+<li> FOX (TV): http://www.foxnews.com/politics/elections/2016/presidential-election-headquarters </li><br>
+<li> PBS (TV): http://www.pbs.org/election2016/home/  and http://www.pbseduelectioncentral.com/election-collection</li><br>
+<li> NBC (TV): http://www.nbcnews.com/politics/2016-election</li><br>
+<li> CNN (TV): http://edition.cnn.com/election</li><br>
+<li> C-SPAN (TV): https://www.c-span.org/series/?campaign2016</li><br><br>
+<li> Twitter (online): https://twitter.com/i/streams/stream/692841134482063360?lang=en
+<li> Politico (online): http://www.politico.com/</li><br>
+ </ul>
+
+<center>Political Parties and Campaigns</center>
+
+On the candidates page you can go to candidate web sites to get involved in their campaigns. Listed here are the party web sites for the major political parties
+<ul>
+<li>Republican Party: https://www.gop.com/, https://www.platform.gop/</li>
+<li> Democratic Party: http://dnc.org, https://www.democrats.org/</li>
+<li> Libertarian Pary: https://www.lp.org</li>
+<li> Green Party: http://www.gp.org/</li>
+</ul>
+            </p>
+        </div>
+      </body>
+      </html>

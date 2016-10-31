@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <title> GO Vote NYC 2017 </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+
+    <script>
+  function toggle_div(id){
+    if (document.getElementById(id).style.display=="block"){
+      document.getElementById(id).style.display="none";
+    }else{
+      document.getElementById(id).style.display="block";
+    }
+  }
+  window.addEventListener('mouseup', function(event){
+    for(var i=0; i < boxArray.length; i++){
+      var box = document.getElementById(boxArray[i]);
+      if(event.target != box && event.target.parentNode != box){
+        box.style.display = 'none';
+      }
+    }
+  });
+      </script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <a href="index%20copy.html">
+        <img src="voter.png" alt="Logo" width="600" height="500">
+        </a>
+            <div id="date-loc">
+          <h2>
+          <a href="https://www.instagram.com/">
+          <img border="0" alt="Badge" src="http://eugenielee.artistwebsite.me/wp-content/uploads/sites/27/2013/09/instagram-logo.jpg" width="50" height="50">
+        </a>
+        <a href="https://www.facebook.com/">
+          <img border="0" alt="Badge" src="http://vignette2.wikia.nocookie.net/warframe/images/f/f9/Facebook-logo-icon-vectorcopy-big_copy.png/revision/latest?cb=20131229102704" width="50" height="50"></a>
+          <a href="https://www.youtube.com/">
+          <img border="0" alt="Badge" src="http://www.ecn.na/documents/27857/172788/Icon_Youtube.png/df422283-21ce-4d96-a592-682e6521d5e5?t=1456914362779" width="50" height="50"></a>
+
+        </h2>
+        </div>
+      </header>
+      <nav>
+        <button onclick="toggle_div('main-menu')">Menu</button>
+        <ul id="main-menu">
+            <li><a href="register.html">Register</a></li>
+          <li><a href="election.html">Election Day</a></li>
+          <li><a href="candidates.html">Candidates</a></li>
+          <li><a href="events.html">Events</a></li>
+         <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </nav>
+        <div id="electionbody">
+        <p><br><br>
+            <br><center>Election Date: November 8, 2016</center>
+
+Poll Hours: 6am&ndash;9pm
+In New York all poll locations should be open for these hours.
+<br>
+Poll Locations
+
+https://nyc.pollsitelocator.com/search
+<br>
+This Poll Site Locator Tool not only tells you where your polling location is based on your address, but it also shows you your local, state and national districts.<br>
+
+Remember to write down your Election/Assembly District number. Often poll locations will serve more than one district so you will need to know which distric you are so that you can go to the right table in the polling location.<br>
+<br>
+Absentee Ballots<br>
+
+If you cannot make it to the polls, visit this site for information about how to cast an absentee ballot.
+https://ny.secureballotusa.com/NY_loginSelection.action
+Absentee ballots have the following deadlines:<br>
+<ul>
+<li> November 1: Last day to postmark an application or letter of application by mail for an absentee ballot.</li>
+<li>Application Ballot Form in English: http://www.elections.ny.gov/NYSBOE/download/voting/Absentee06152010.pdf</li>
+<li> Application Ballot Form in Spanish: http://www.elections.ny.gov/NYSBOE/download/voting/Absentee2012-Spanish.pdf</li>
+<li> November 7: Last day to apply IN-PERSON for absentee ballot.</li>
+<li> November 7: Last day to postmark ballot. Must be received by the local board of elections no later than Nov. 15th. Military Voter Ballots must be received no later than Nov. 21st.</li>
+<li> November 8: Last day to deliver ballot IN-PERSON to the local board of elections (by someone other than the voter).</li>
+            </ul>
+            <br>
+<center>Get Involved</center>
+
+Become a Poll Worker. Work at the polls on election day for the NY Board of Elections: http://www.elections.ny.gov/BecomePollworker.html
+	Poll Worker Positions: http://www.vote.nyc.ny.us/html/workers/positions.shtml
+
+CUNY Poll Worker Initiative.<br> If you are a CUNY Student you can work as an inspector or interpreter on Election Day. You can earn $100 for working on election day and $100 for attending training and passing the exam. [Click here](http://www2.cuny.edu/employment/student-jobs/jobs/poll-worker-initiative/) for more information.<br>
+<br>
+NYC Board of Elections Volunteer Opportunities: https://www.volunteermatch.org/search/org306545.jsp#opportunities_tab
+<br>
+<br>
+<center>More Information</center><br>
+
+NYC Board of Elections Voting Day Page: http://vote.nyc.ny.us/html/voters/day.shtml
+New York City Campaign Finance Board Voter Registration Guide (only available after October 25, 2016). http://www.nyccfb.info/nyc-votes/voter-guide
+How to Mark Your Ballot: http://vote.nyc.ny.us/html/newway_en/using_scanner.shtml
+Voting Maching Information: https://www.elections.ny.gov/VotingMachines.html
+Military and Overseas Voters: https://www.elections.ny.gov/VotingMilitaryFed.html
+
+            </p>
+        </div>
+      </div>
+      </body>
+      </html>
